@@ -23,14 +23,14 @@ const Sidebar = () => {
           </div>
           <nav className="p-4 flex-grow">
             <ul className="space-y-2">
-              <li>
+            <li>
                 <a
                   href="#home"
                   onClick={(e) => scrollToSection(e, 'home')}
                   className="flex items-center py-1 px-2 rounded-lg bg-gray-900 hover:bg-gray-700 transition-colors duration-300"
                 >
                   <FaUser size={16} className="mr-1" />
-                  <span className="text-sm">Profile</span>
+                  <span className="text-sm">Home</span>
                 </a>
               </li>
               <li>
@@ -39,8 +39,8 @@ const Sidebar = () => {
                   onClick={(e) => scrollToSection(e, 'about')}
                   className="flex items-center py-1 px-2 rounded-lg bg-gray-900 hover:bg-gray-700 transition-colors duration-300"
                 >
-                  <FaTools size={16} className="mr-1" />
-                  <span className="text-sm">Skills</span>
+                  <FaUser size={16} className="mr-1" />
+                  <span className="text-sm">About</span>
                 </a>
               </li>
               <li>
@@ -49,14 +49,24 @@ const Sidebar = () => {
                   onClick={(e) => scrollToSection(e, 'skills')}
                   className="flex items-center py-1 px-2 rounded-lg bg-gray-900 hover:bg-gray-700 transition-colors duration-300"
                 >
-                  <FaHeart size={16} className="mr-1" />
-                  <span className="text-sm">Projects</span>
+                  <FaTools size={16} className="mr-1" />
+                  <span className="text-sm">Skills</span>
                 </a>
               </li>
               <li>
                 <a
                   href="#projects"
                   onClick={(e) => scrollToSection(e, 'projects')}
+                  className="flex items-center py-1 px-2 rounded-lg bg-gray-900 hover:bg-gray-700 transition-colors duration-300"
+                >
+                  <FaHeart size={16} className="mr-1" />
+                  <span className="text-sm">Projects</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#experience"
+                  onClick={(e) => scrollToSection(e, 'experience')}
                   className="flex items-center py-1 px-2 rounded-lg bg-gray-900 hover:bg-gray-700 transition-colors duration-300"
                 >
                   <GiShoppingBag size={16} className="mr-1" />
