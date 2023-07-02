@@ -10,10 +10,10 @@ import Experience from './components/Experience';
 const App = () => {
   return (
     <div style={{ display: 'flex', height: '100vh' }}>
-      <div style={{ position: 'fixed', top: 0, left: 0, bottom: 0, width: '250px', backgroundColor: '#333', color: '#fff' }}>
+      <div style={{ position: 'fixed', top: 0, left: 0, bottom: 0, width: '200px', backgroundColor: '#333', color: '#fff' }}>
         <Sidebar />
       </div>
-      <div style={{ flex: 1, overflowY: 'auto', padding: '0px', marginLeft: '250px' }}>
+      <div style={{ flex: 1, overflowY: 'auto', padding: '0px', marginLeft: '210px', paddingRight: '10px' }}>
         {/* <Header /> */}
         <Home />
         <About />

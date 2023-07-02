@@ -7,7 +7,7 @@ const About = () => {
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
 
   const headingStyles2 = {
-    fontSize: '3.5rem',
+    fontSize: '2.5rem',
     marginBottom: '1rem',
     fontFamily: 'Lobster, Roboto, sans-serif',
     textAlign: 'left',
@@ -17,7 +17,7 @@ const About = () => {
   };
 
   const headingStyles = {
-    fontSize: '2rem',
+    fontSize: '1.5rem',
     marginBottom: '1rem',
     fontFamily: "'Kalam','Caveat', 'Roboto', sans-serif",
     textAlign: 'center',
@@ -25,7 +25,7 @@ const About = () => {
     opacity: currentStepIndex === 1 ? '0.9' : '1', // Show the text only when currentStepIndex is 1
     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)',
     letterSpacing: '0.1rem',
-    paddingRight: '80px', // Right padding of 100px
+    paddingRight: '170px', // Right padding of 100px
   };
 
   useEffect(() => {
@@ -47,7 +47,7 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about" className=" flex items-center justify-center bg-blue-600">
+    <section id="about" className="h-screen flex items-center justify-center bg-blue-600">
       <div className="container mx-auto flex">
         <div className="w-2/5 flex justify-end">
           <img

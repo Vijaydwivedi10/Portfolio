@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
 
   const headingStyles2 = {
-    fontSize: '3.5rem',
+    fontSize: '2.5rem',
     fontWeight: 'bold',
     marginBottom: '4rem',
     marginLeft: '2rem',
