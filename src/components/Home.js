@@ -29,7 +29,7 @@ const Home = () => {
 
 
   return (
-    <section id="home" className="h-screen flex items-center bg-gray-200">
+    <section id="home" className=" flex items-center bg-gray-200">
       <div className="container mx-auto flex">
         <div className="w-1/2 relative">
           <div className="pl-16 absolute left-0 top-1/2 transform -translate-y-1/2">

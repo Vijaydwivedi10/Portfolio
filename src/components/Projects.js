@@ -15,7 +15,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="h-screen flex items-center bg-green-200 py-10">
+    <section id="projects" className="flex items-center bg-green-200 py-10">
       <div className="container mx-auto">
         <h3 style={headingStyles2}>Projects</h3>
         <div className="grid grid-cols-2 gap-4">

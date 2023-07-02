@@ -15,7 +15,7 @@ const Experience = () => {
   };
 
   return (
-    <section id="experience" className="h-screen flex items-center bg-gray-200 py-10">
+    <section id="experience" className=" flex items-center bg-gray-200 py-10">
       <div className="container mx-auto flex">
         <div className="w-3/4 pr-4">
           <h3 style={headingStyles2}>Experiences</h3>

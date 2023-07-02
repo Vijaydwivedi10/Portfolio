@@ -14,7 +14,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="bg-gray-800 text-white flex-shrink-0 flex flex-col justify-between h-screen">
+    <div className="bg-gray-800 text-white flex-shrink-0 flex flex-col justify-between">
       <aside className="w-70">
         <div className="p-4 flex flex-col items-center">
           <img src={profileImage} alt="Profile" className="w-32 h-32 rounded-full mb-4" />

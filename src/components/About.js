@@ -47,7 +47,7 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about" className="h-screen flex items-center justify-center bg-blue-600">
+    <section id="about" className=" flex items-center justify-center bg-blue-600">
       <div className="container mx-auto flex">
         <div className="w-2/5 flex justify-end">
           <img

@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
   
   return (
-    <section id="contact" className="h-screen flex items-center bg-yellow-200 py-5 px-4">
+    <section id="contact" className=" flex items-center bg-yellow-200 py-5 px-4">
       <div className="container mx-auto">
         <div className="flex items-stretch">
           <div className="w-1/4">
