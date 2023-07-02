@@ -10,12 +10,6 @@ const Home = () => {
     marginBottom: '20px',
   };
   
-  
-
-  const customFontStyle2 = {
-    fontFamily: 'Lobster, cursive',
-    color: 'black',
-  };
 
   const hiStyle = {
     color: 'black',

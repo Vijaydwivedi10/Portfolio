@@ -65,7 +65,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="w-1/4">
-          <img src={yourCustomImage} alt="Your Custom Image" className="w-90 h-auto" />
+          <img src={yourCustomImage} className="w-90 h-auto" />
         </div>
       </div>
     </section>

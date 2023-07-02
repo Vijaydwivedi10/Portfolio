@@ -1,11 +1,10 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Image from '../components/images/imim.png';
 import { Scrollama, Step } from 'react-scrollama';
 import scrollama from 'scrollama';
 
 const About = () => {
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
-  const stepRef = useRef();
 
   const headingStyles2 = {
     fontSize: '3.5rem',

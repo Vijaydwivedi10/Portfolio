@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaInstagram, FaUser, FaHeart, FaTools, FaEnvelope } from 'react-icons/fa';
-import { GiShoppingBag, GiSettingsKnobs } from 'react-icons/gi';
+import { GiShoppingBag } from 'react-icons/gi';
 import { IoMdMusicalNotes } from 'react-icons/io';
 import profileImage from '../components/images/dpdp.jpg';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHtml5, FaCss3, FaJs, FaReact, FaCss3Alt, FaDatabase, FaMobileAlt, FaNodeJs, FaPython, FaJava, FaCode, FaPaintBrush, FaLaptopCode, FaPalette, FaImage, FaFilm } from 'react-icons/fa';
+import { FaCss3, FaJs, FaReact, FaCss3Alt, FaMobileAlt, FaNodeJs, FaPython, FaJava, FaCode, FaPaintBrush, FaLaptopCode, FaPalette, FaImage, FaFilm } from 'react-icons/fa';
 
 const Skills = () => {
   const headingStyles = {
