@@ -1,5 +1,4 @@
 import React from 'react';
-import strandLogo from '../components/images/Strandlogo.png';
 import yourCustomImage from '../components/images/aboutme.png';
 
 const Experience = () => {
@@ -65,7 +64,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="w-1/4">
-          <img src={yourCustomImage} className="w-90 h-auto" />
+          <img src={yourCustomImage} alt="MyImage" className="w-90 h-auto" />
         </div>
       </div>
     </section>
