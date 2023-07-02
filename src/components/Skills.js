@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCss3, FaJs, FaReact, FaCss3Alt, FaMobileAlt, FaNodeJs, FaPython, FaJava, FaCode, FaPaintBrush, FaLaptopCode, FaPalette, FaImage, FaFilm } from 'react-icons/fa';
+import { FaCss3, FaReact, FaCss3Alt, FaMobileAlt, FaNodeJs, FaPython, FaJava, FaCode, FaPaintBrush, FaLaptopCode, FaPalette, FaImage, FaFilm } from 'react-icons/fa';
 
 const Skills = () => {
   const headingStyles = {
@@ -31,7 +31,7 @@ const Skills = () => {
         <div className="mb-8 pt-8">
           <div className="grid grid-cols-5 gap-4">
             <div className="col-span-1 flex items-center">
-              <h4 style={headingStyles} className="text-2xl font-bold mb-4 font-cursive text-black">Programming</h4>
+              <h4 style={headingStyles} className="text-2xl font-bold mb-4 font-cursive text-black"> Programming</h4>
             </div>
             <div className="col-span-4 grid grid-cols-4 gap-4">
               <a href="https://en.wikipedia.org/wiki/Java" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:scale-110">
