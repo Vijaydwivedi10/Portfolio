@@ -3,19 +3,19 @@ import React from 'react';
 const Contact = () => {
   
   return (
-    <section id="contact" className=" flex items-center bg-yellow-200 py-5 px-4">
-      <div className="container mx-auto">
+    <section id="contact" className="h-screen flex items-center bg-yellow-200 py-5 px-4">
+      <div className="container mx-20">
         <div className="flex items-stretch">
           <div className="w-1/4">
             <div className="bg-gray-800 text-white rounded-lg px-8 py-20 h-full">
               <h2 className="text-3xl font-bold mb-4">
                 <span className="font-cursive">Get in touch</span>
               </h2>
-              <p className="text-lg text-white mb-2">Name: Vijay Dwivedi</p>
-              <p className="text-lg text-white mb-2">
+              <p className="text-sm text-white mb-2">Name: Vijay Dwivedi</p>
+              <p className="text-sm text-white mb-2">
                 Email: <a href="mailto:vijaynews50785@gmail.com" className="text-blue-300 hover:text-blue-400">2020csb1140@iitrpr.ac.in</a>
               </p>
-              <p className="text-lg text-white mb-2">
+              <p className="text-sm text-white mb-2">
                 LinkedIn: <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-400">LinkedIn Profile</a>
               </p>
             </div>
