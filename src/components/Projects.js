@@ -20,7 +20,7 @@ const Projects = () => {
     footer: 'bg-gray-100 px-6 py-4 flex items-center justify-between',
     language: 'text-gray-600 text-xs',
     link:
-      'bg-blue-500 text-white text-xs px-4 py-2 ml-1 rounded-md hover:bg-blue-600 transition-colors duration-300',
+      'bg-blue-500 text-white text-xs px-4 py-2 ml-4 rounded-md hover:bg-blue-600 transition-colors duration-300',
   };
 
   const alertStyles = {
